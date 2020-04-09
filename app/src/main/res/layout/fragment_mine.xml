@@ -1,0 +1,267 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="come.jk.cn.moudle.MineFragment">
+
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img_finish"-->
+    <!--android:layout_width="34px"-->
+    <!--android:layout_height="34px"-->
+    <!--android:layout_marginLeft="30px"-->
+    <!--android:layout_marginTop="30px"-->
+    <!--android:src="@drawable/guanbi" />-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_marginTop="100px"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:paddingLeft="110px"-->
+    <!--android:paddingRight="110px">-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:id="@+id/btn_login"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_login"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="登陆"-->
+    <!--android:textColor="@color/colorblack"-->
+    <!--android:textSize="30px" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_login"-->
+    <!--android:layout_width="40px"-->
+    <!--android:layout_height="4px"-->
+    <!--android:layout_marginTop="10px"-->
+    <!--android:src="@drawable/xuanze" />-->
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:id="@+id/btn_register"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="174px"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_register"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="注册"-->
+    <!--android:textColor="@color/colorblack"-->
+    <!--android:textSize="30px" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_register"-->
+    <!--android:layout_width="40px"-->
+    <!--android:layout_height="4px"-->
+    <!--android:layout_marginTop="10px"-->
+    <!--android:src="@drawable/xuanze"-->
+
+    <!--/>-->
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="170px"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="24px"-->
+    <!--android:layout_height="32px"-->
+    <!--android:src="@drawable/shouji" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/et_phone"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/colorwrite"-->
+    <!--android:hint="请输入手机号"-->
+    <!--android:inputType="number"-->
+    <!--android:paddingLeft="20px"-->
+    <!--android:paddingRight="20px"-->
+    <!--android:singleLine="true"-->
+    <!--android:textColorHint="@color/color_d2d2d2"-->
+    <!--android:textSize="28px" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="36px"-->
+    <!--android:layout_height="36px"-->
+    <!--android:padding="5dp"-->
+    <!--android:src="@drawable/shanchu" />-->
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--<View-->
+    <!--style="@style/LineHorizontal"-->
+    <!--android:layout_marginTop="26px" />-->
+
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:id="@+id/pwd_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="60px"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="24px"-->
+    <!--android:layout_height="32px"-->
+    <!--android:src="@drawable/mima" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/et_password"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/colorwrite"-->
+    <!--android:hint="请输入密码"-->
+    <!--android:inputType="textPassword"-->
+    <!--android:paddingLeft="20px"-->
+    <!--android:paddingRight="20px"-->
+    <!--android:singleLine="true"-->
+    <!--android:textColorHint="@color/color_d2d2d2"-->
+    <!--android:textSize="28px" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/pwd_show"-->
+    <!--android:layout_width="36px"-->
+    <!--android:layout_height="36px"-->
+    <!--android:padding="5px"-->
+    <!--android:src="@drawable/yanjing_hui" />-->
+
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--<com.zhy.autolayout.AutoRelativeLayout-->
+    <!--android:id="@+id/login_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="34px">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:drawablePadding="10px"-->
+    <!--android:drawableRight="@mipmap/more"-->
+    <!--android:text="快捷登陆"-->
+    <!--android:textColor="@color/colorblack"-->
+    <!--android:textSize="26px" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/forget_pwd"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:drawablePadding="10px"-->
+    <!--android:drawableRight="@mipmap/more"-->
+    <!--android:text="忘记密码"-->
+    <!--android:textColor="@color/colorblack"-->
+    <!--android:textSize="26px" />-->
+
+    <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+    <!--<com.zhy.autolayout.AutoRelativeLayout-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="81px">-->
+
+    <!--<com.zhy.autolayout.AutoRelativeLayout-->
+    <!--android:id="@+id/view_login"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100px"-->
+    <!--android:padding="4px">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/solder"-->
+    <!--android:gravity="center"-->
+    <!--android:text="登陆"-->
+    <!--android:textColor="@color/colorwrite"-->
+    <!--android:textSize="30px" />-->
+
+    <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+    <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+
+    <!--<com.zhy.autolayout.AutoRelativeLayout-->
+    <!--android:id="@+id/view_weixin"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="96px"-->
+    <!--android:layout_marginTop="54px"-->
+    <!--android:background="@drawable/sorder"-->
+    <!--android:padding="4px"-->
+
+    <!--&gt;-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:drawableLeft="@mipmap/weixin"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="10px"-->
+    <!--android:text="微信登陆"-->
+    <!--android:textColor="@color/colorblack"-->
+    <!--android:textSize="30px" />-->
+
+    <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="30px"-->
+    <!--android:gravity="center"-->
+    <!--android:text="登录或注册即同意录趣《用户服务协议》"-->
+    <!--android:textSize="22px" />-->
+
+
+</com.zhy.autolayout.AutoLinearLayout>

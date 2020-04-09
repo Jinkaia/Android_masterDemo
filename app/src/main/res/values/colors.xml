@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#f6f6f7</color>
+    <color name="colorAccen">#a2c7c5c5</color>
+    <color name="colorblue">#3b8f1c</color>
+    <color name="colorwrite">#ffffff</color>
+     <color name="colorwri">#eae5ea</color>
+    <color name="colorblack">#FF02060B</color>
+    <color name="color_d2d2d2">#d2d2d2</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_main_e0e0e0">#e0e0e0</color>
+    <color name="color_696969">#696969</color>
+    <color name="color_main_e36b61">#e36b61</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="login_close_c">#666666</color>
+    <color name="light_art">#00CCCC</color>
+    <color name="login_phone_tx_c">#333333</color>
+    <color name="gray">#A7A8AE</color>
+    <color name="white">#ffffff</color>
+    <color name="yazheng">#006666</color>
+    <color name="color_normal_text">#262626</color>
+    <color name="color_gray_text">#939393</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_list_item_hover">#DFDFDD</color>
+    <color name="color_primary">#3A91F3</color>
+    <color name="color_text_operation_disable">#B2B2B2</color>
+    <color name="color_remind">#F11B1B</color>
+    <color name="color_divider_line">#E5E5E5</color>
+    <color name="color_button_blue">#368AE8</color>
+    <color name="color_button_blue_pressed">#3888E1</color>
+    <color name="color_button_blue_disabled">#9CC8F9</color>
+    <color name="color_activity_bg">#F2F2F3</color>
+    <color name="colorButtonPressed">#1976d2</color>
+    <color name="colorAccentcolor">#5A8DDF</color>
+</resources>

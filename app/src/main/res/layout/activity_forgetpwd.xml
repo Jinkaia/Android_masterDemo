@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="come.jk.cn.ui.login.ForgetpwdActivity">
+
+
+    <!--<include-->
+    <!--layout="@layout/text_include"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_marginTop="@dimen/dp_26">
+
+        <TextView
+            android:id="@+id/retrievepass_cancle"
+            style="@style/cancle_bg_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/text_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/forget_findpass_tv"
+            android:textColor="#2C272D"
+            android:textSize="@dimen/dp_18" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginRight="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_80"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/forgrt_art_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/line_et_bg"
+                    android:hint="@string/rce_reset_password_phone_hint"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/forget_aty_phone_et_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/input_close"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edi_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/line_et_bg"
+                        android:hint="@string/rce_reset_password_code_hint"
+                        android:singleLine="true" />
+
+
+                    <TextView
+                        android:id="@+id/text_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:text="@string/rce_send_code"
+                        android:textColor="@color/color_button_blue"
+                        android:textSize="@dimen/dp_18" />
+
+                    <ImageView
+                        android:id="@+id/forget_aty_code_et_clear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_toLeftOf="@+id/text_code"
+                        android:src="@mipmap/input_close"
+                        android:visibility="invisible" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_30"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/forget_aty_btn"
+                    android:layout_width="@dimen/dp_220"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backyazhengma"
+                    android:text="@string/next"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_15"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

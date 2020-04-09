@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LineHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.35dp</item>
+        <item name="android:background">#e0e0e0</item>
+    </style>
+    <style name="rce_search_category_history">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/dp_17</item>
+        <item name="android:textColor">@color/color_remind</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="rce_search_category_underline">
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/color_remind</item>
+        <item name="android:layout_marginTop">@dimen/dp_3</item>
+    </style>
+    <declare-styleable name="UnderlineTextView">
+        <attr name="category_name" format="string" />
+        <attr name="underline_length" format="dimension"/>
+    </declare-styleable>
+
+
+    <style name="rce_search_category_container">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--dialog修改头像样式-->
+    <style name="bottomEnterAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_up_down</item>
+        <item name="android:windowExitAnimation">@anim/enter_down_up</item>
+    </style>
+
+    <style name="MyDialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AnimTools" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_in</item>
+        <item name="android:windowExitAnimation">@anim/push_out</item>
+    </style>
+
+    <style name="CustomDialog"  parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CustomDialogWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+
+    <style name="login_top_tv">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/dp_16</item>
+        <item name="android:textColor">@color/login_close_c</item>
+    </style>
+
+    <style name="login_logout_input">
+        <item name="android:layout_centerVertical" >true</item>
+
+        <item name="android:background">@null</item>
+
+        <item name="android:textColor">@color/login_phone_tx_c</item>
+
+        <item name="android:textSize">@dimen/dp_16</item>
+
+        <item name="android:textColorHint">@color/gray</item>
+
+        <item name="android:singleLine">true</item>
+
+    </style>
+
+    <style name="cancle_bg_style">
+
+        <item name="android:drawableLeft">@mipmap/register_return</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:layout_centerVertical">true</item>
+
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+
+        <item name="android:paddingRight">@dimen/dp_15</item>
+    </style>
+
+    <style name="rce_horizontal_light_thin_divider">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/color_list_item_hover</item>
+    </style>
+
+    <style name="rce_horizontal_primary_thin_divider">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/color_primary</item>
+    </style>
+
+    <style name="ExitDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+</resources>

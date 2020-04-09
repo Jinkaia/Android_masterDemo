@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_category"
+        style="@style/rce_search_category_history"
+        android:text="@string/rce_send_code"
+        android:background="@drawable/backyazhengma"
+        tools:text="@string/rce_send_code" />
+
+    <View
+        android:id="@+id/rce_category_underline"
+        style="@style/rce_search_category_underline"
+        android:layout_width="@dimen/dp_51"
+        android:background="@drawable/backyazhengma"
+        android:visibility="gone" />
+</LinearLayout>

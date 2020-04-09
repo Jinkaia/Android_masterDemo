@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">来看看</string>
+    <string name="login_aty_close_tv">关闭</string>
+    <string name="login_aty_register_tv">注册</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="login_phont_hint_tv">请输入账号</string>
+    <string name="login_phont_reset_tv">请输入新密码</string>
+    <string name="phont_reset_tv">请确认新密码</string>
+
+    <string name="login_phont_pass_hint_tv">请输入密码</string>
+    <string name="login_loing_tv">登陆</string>
+    <string name="login_findpass_tv">忘记密码</string>
+    <string name="forget_findpass_tv">找回密码</string>
+    <string name="rce_login_user_name_invalid">用户名不能为空！</string>
+    <string name="rce_login_password_invalid">密码为6～16位字符区分大小写</string>
+    <string name="rce_reset_password_phone_hint">请输入要重置密码的手机号</string>
+    <string name="rce_reset_password">密码重置</string>
+
+    <string name="rce_reset_password_code_hint">输入验证码</string>
+    <string name="rce_verify_code">验证码</string>
+    <string name="rce_mobile_number">手机号</string>
+    <string name="rce_send_code">获取验证码</string>
+    <string name="next">下一步</string>
+
+
+    <string name="rce_register_hint_name">请输入姓名</string>
+    <string name="rce_register_name">姓名</string>
+
+    <string name="rce_register_hint_phone">请输入手机号码</string>
+    <string name="rce_register_hint_pwd">请输入6-16位字符</string>
+    <string name="rce_register_new_user">新用户注册</string>
+
+    <string name="rce_register_phone_default_zip"> +86</string>
+    <string name="rce_register_pwd">登录密码</string>
+    <string name="rce_register">注册</string>
+    <string name="reset_finish">完成</string>
+
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="come.jk.cn.ui.MainActivity"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="114dp"
+                    android:layout_marginLeft="7dp"
+                    android:src="@mipmap/title_logo"
+                    android:visibility="gone"
+                    android:layout_centerVertical="true"
+                    android:layout_height="36dp" />
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/home_master_search_btn"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="260dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/home_search_bg"
+                        android:gravity="center"
+                        android:layout_height="32dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/home_master_search"
+                        android:layout_height="20dp" />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="44dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="44dp">
+
+                <TextView
+                    android:id="@+id/home_master_fragment_message"
+                    android:layout_width="44dp"
+                    android:background="@mipmap/home_master_shape"
+                    android:layout_height="44dp" />
+                <ImageView
+                    android:id="@+id/home_master_fragment_message_newimg"
+                    android:layout_width="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@mipmap/new_message"
+                    android:layout_height="8dp" />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_height="1dp" />
+
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+       <FrameLayout
+           android:id="@+id/container"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <RadioButton
+                android:id="@+id/weixinBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="名师"
+                android:gravity="center"
+                android:button="@null"
+                android:padding="5dp"
+                android:checked="true"
+                android:drawableTop="@drawable/bb" />
+
+
+            <RadioButton
+                android:id="@+id/addressBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="作业"
+                android:gravity="center"
+                android:button="@null"
+                android:drawableTop="@drawable/zuoye"
+                android:padding="5dp" />
+
+
+            <RadioButton
+                android:id="@+id/findBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="艺术圈"
+                android:gravity="center"
+                android:drawableTop="@drawable/yishuquan"
+                android:padding="5dp"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/work"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="课程表"
+                android:gravity="center"
+                android:drawableTop="@drawable/work"
+                android:button="@null"
+                android:padding="5dp"
+                />
+            <RadioButton
+                android:id="@+id/Btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="我的"
+               android:drawableTop="@drawable/mine"
+                android:gravity="center"
+                android:padding="5dp"
+                android:button="@null" />
+
+            
+        </RadioGroup>
+
+
+
+
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+
+

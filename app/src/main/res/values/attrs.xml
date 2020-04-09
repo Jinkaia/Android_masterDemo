@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+
+    <attr name="colorPrimary" format="color"/>
+    <attr name="colorPrimaryDark" format="color"/>
+    <attr name="colorAccent" format="color"/>
+    <attr name="textColorPrimary" format="color"/>
+    <attr name="viewBackground" format="color"/>
+
+    <declare-styleable name="IconListPreference">
+        <attr name="iconsDrawables" format="reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="rce_cwt_edit_text">
+        <attr name="cwt_edit_text_title" format="string|reference" />
+        <attr name="cwt_edit_text_content_color" format="color|reference" />
+        <attr name="cwt_edit_text_content_textSizes" format="dimension|reference" />
+        <attr name="cwt_edit_text_content_singleLine" format="boolean" />
+        <attr name="cwt_edit_text_content_maxLines" format="integer" />
+        <attr name="cwt_edit_text_content_maxLength" format="integer" />
+        <attr name="cwt_edit_text_content_inputType" format="string" />
+        <attr name="cwt_edit_text_content_hint" format="string|reference" />
+        <attr name="cwt_edit_text_content_hint_color" format="color|reference" />
+        <attr name="cwt_edit_text_content_underLineVisible" format="boolean" />
+        <attr name="cwt_edit_text_content_margin_left" format="dimension|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EasyPickerView">
+        <attr name="epvTextSize" format="dimension"/>
+        <attr name="epvTextColor" format="color"/>
+        <attr name="epvTextPadding" format="dimension"/>
+        <attr name="epvTextMaxScale" format="float"/>
+        <attr name="epvTextMinAlpha" format="float"/>
+        <attr name="epvRecycleMode" format="boolean"/>
+        <attr name="epvMaxShowNum" format="integer"/>
+    </declare-styleable>
+
+    <!-- 仿 ios 开关按钮 -->
+    <declare-styleable name="SwitchButton_weigh">
+        <!-- 是否选中 -->
+        <attr name="android:checked" />
+        <!-- 是否禁用 -->
+        <attr name="android:enabled" />
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswBackMeasureRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+        <attr name="kswTextOn" format="string" />
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextMarginH" format="dimension" />
+    </declare-styleable>
+</resources>

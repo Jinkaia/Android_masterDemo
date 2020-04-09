@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="come.jk.cn.ui.login.ResetActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_marginTop="@dimen/dp_26">
+
+        <TextView
+            android:id="@+id/retrievepass_cancle"
+            style="@style/cancle_bg_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/text_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/rce_reset_password"
+            android:textColor="#2C272D"
+            android:textSize="@dimen/dp_16" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_80"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <EditText
+                    android:id="@+id/reset_aty_phone_et"
+                    style="@style/login_logout_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/line_et_bg"
+                    android:hint="@string/login_phont_reset_tv"
+                    android:maxLength="15"
+                    android:password="true" />
+
+
+                <ImageView
+                    android:id="@+id/reset_aty_phone_et_clear"
+                    android:layout_width="@dimen/dp_22"
+                    android:layout_height="@dimen/dp_22"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/yanjing_hui" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                >
+
+            <EditText
+                android:id="@+id/resetpass_aty_rp_et"
+                style="@style/login_logout_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_30"
+                android:hint="请确认新密码"
+                android:background="@drawable/line_et_bg"
+                android:maxLength="16"
+                android:password="true" />
+
+                <ImageView
+                    android:id="@+id/resetpass_aty"
+                    android:layout_width="@dimen/dp_22"
+                    android:layout_height="@dimen/dp_22"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/yanjing_hui"
+                    />
+
+
+            </RelativeLayout>
+            <Button
+                android:id="@+id/reset_aty_finishbtn"
+                android:layout_width="@dimen/dp_280"
+                android:layout_height="@dimen/dp_48"
+                android:layout_marginTop="@dimen/dp_44"
+                android:background="@drawable/backyazhengma"
+                android:text="@string/reset_finish"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_16" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
