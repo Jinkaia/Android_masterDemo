@@ -1,29 +1,15 @@
 package come.jk.cn.model.biz;
 
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.widget.ImageView;
-
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import come.jk.cn.BuildConfig;
-import come.jk.cn.R;
 import come.jk.cn.app.MyAppLication;
 import come.jk.cn.config.Urils;
 import come.jk.cn.model.interceptor.ParamsInterceptor;
-
 import come.jk.cn.model.server.UserInfoServer;
-import come.jk.cn.utils.APKVersionCodeUtils;
-import come.jk.cn.utils.LogUtils;
 import come.jk.cn.utils.NetUtil;
-import come.jk.cn.utils.SPUtils;
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.ObservableTransformer;
@@ -48,12 +34,11 @@ public class ServiceFactory {
     public static final String CACHE_NAME = "come.jk.cn";
 
 
-
     //正式服
 //    public static final String BASE_URL_RELEASE = "http://www.xiangduyizhan-app.com/";
 //测试服
 //    public static final String BASE_URL_RELEASE = "http://app-luqu.ibangoo.com";
-    public static final String BASE_URL_RELEASE= Urils.Root_url;
+    public static final String BASE_URL_RELEASE = Urils.Root_url;
 
     //默认链接超时时间
     private static final int DEFAULT_TIMEOUT = 30;
@@ -64,7 +49,6 @@ public class ServiceFactory {
 
 
     }
-
 
 
     public static ParamsInterceptor getBaseParamsInterceptor() {
@@ -171,51 +155,5 @@ public class ServiceFactory {
 //        return getDefaultRetrofit().create(AuthService.class);
 //    }
 //
-//    public static BacklogService getBacklogService(){
-//        return getDefaultRetrofit().create(BacklogService.class);
-//    }
-//
-//    public static AddressService getAddressService(){
-//        return getDefaultRetrofit().create(AddressService.class);
-//    }
-//
-//    public static TopicService getTopicService(){
-//        return getDefaultRetrofit().create(TopicService.class);
-//    }
-//
-//    public static CircleService getCircleService(){
-//        return getDefaultRetrofit().create(CircleService.class);
-//    }
-//
-//    public static CommentService getCommentService(){
-//        return getDefaultRetrofit().create(CommentService.class);
-//    }
-//
-//    public static ZanService getZanService() {
-//        return getDefaultRetrofit().create(ZanService.class);
-//    }
-//
-//    public static QueationService getQueationService() {
-//        return getDefaultRetrofit().create(QueationService.class);
-//    }
-//
-//    public static CourseService getCourseService() {
-//        return getDefaultRetrofit().create(CourseService.class);
-//    }
-//
-//    public static GuestsService getGuestsService() {
-//        return getDefaultRetrofit().create(GuestsService.class);
-//    }
-//
-//    public static RecommendService getRecommendService() {
-//        return getDefaultRetrofit().create(RecommendService.class);
-//    }
-//
-//    public static QuestionOrderService getQuestionOrderService() {
-//        return getDefaultRetrofit().create(QuestionOrderService.class);
-//    }
-//    public static SmallClassService getSmallClassService() {
-//        return getDefaultRetrofit().create(SmallClassService.class);
-//    }
 
 }
