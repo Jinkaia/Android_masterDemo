@@ -101,6 +101,7 @@ public class MainTabActivity extends BaseActivity {
                 case 4:
                     d = getResources().getDrawable(R.drawable.main_tab_5);
                     break;
+                    default:
             }
             tab.setCustomView(getTabView(tabTitle[i],d));
         }
