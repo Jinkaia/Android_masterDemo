@@ -175,19 +175,5 @@
             android:src="@mipmap/ic_login_weibo" />
     </LinearLayout>
 
-    <come.jk.cn.utils.EasyPickerView
-        android:id="@+id/picker_money"
-        android:layout_width="141.5dp"
-        android:layout_height="159dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginLeft="46dp"
-        android:layout_marginTop="26dp"
-        app:epvRecycleMode="false"
-        app:epvTextColor="@color/gray"
-        app:epvTextMaxScale="1.18"
-        app:epvTextMinAlpha="0.5"
-        app:epvTextPadding="32dp"
-        app:epvTextSize="19sp"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </LinearLayout>

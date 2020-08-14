@@ -20,10 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -32,11 +29,8 @@ import come.jk.cn.base.BaseActivity;
 import come.jk.cn.model.entity.LoginRegsterSucessModel;
 import come.jk.cn.presenter.UserPresenter;
 import come.jk.cn.model.callbackview.UserinfoView;
-import come.jk.cn.ui.MainActivity;
 import come.jk.cn.ui.MainTabActivity;
-import come.jk.cn.utils.EasyPickerView;
 import come.jk.cn.utils.InputTextHelper;
-import come.jk.cn.utils.MyDailog;
 import come.jk.cn.utils.PhoneUtils;
 import come.jk.cn.utils.ToastUtil;
 
@@ -64,7 +58,6 @@ public class LoginActivity extends BaseActivity implements UserinfoView, View.On
     private ImageView login_aty_phone_et_clear;
     private TextView login_aty_register_tv;
     private CheckBox checkout;
-    private EasyPickerView picker_money;
 
     @Override
     protected int getLayoutId() {
@@ -96,7 +89,6 @@ public class LoginActivity extends BaseActivity implements UserinfoView, View.On
 
         login_account = login_aty_phone_et.getText().toString().trim();
         login_pwd = login_aty_pass_et.getText().toString().trim();
-         picker_money = (EasyPickerView)findViewById(R.id.picker_money);
 
 
         checkout = findViewById(R.id.checkbox);
@@ -267,14 +259,6 @@ public class LoginActivity extends BaseActivity implements UserinfoView, View.On
 
             case R.id.login_aty_loginbtn:
 
-                ArrayList<String> list_add=new ArrayList<>();
-                list_add.add("你好");
-                list_add.add("不好");
-//
-//                picker_money.setDataList(list_add);
-
-//                    new MyDailog(this).getDidlog("体重");
-
 //                showLoadingDialog();
                 //判断手机号
                 if (!PhoneUtils.judgePhoneNums(login_account)) {
@@ -295,6 +279,7 @@ public class LoginActivity extends BaseActivity implements UserinfoView, View.On
             case R.id.login_aty_register_tv:
                 startActivity(new Intent(this,RegisterActivity.class));
                 break;
+                default:
                 }
 
 
